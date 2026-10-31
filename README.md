@@ -1,4 +1,4 @@
-# Three Team Mode — PC (FortRise 5)
+# Team+ — PC (FortRise 5)
 
 A third team (**Yellow**) for TowerFall's team play, plus **lone wolves**: the
 neutral column of the team-select screen is a real choice, and a solo archer
@@ -13,7 +13,7 @@ This is the desktop sibling of the Switch mod in `../exlaunch-overlay`
 
 | | |
 |---|---|
-| **Mode** | "THREE TEAM" in the GAME MODE carousel (needs 3+ archers), with its own icon |
+| **Mode** | "TEAM+" in the GAME MODE carousel (needs 3+ archers), with its own icon |
 | **Select screen** | four columns — **SOLO / BLUE / YELLOW / RED**, neutral first |
 | **Start gate** | any two groups may start (2v1, 1v1v1, 2v1v1, team + wolves…). No per-team cap; you just can't all be on one team |
 | **Yellow archers** | real gold sprite sheets — body, bow and head — plus gold aimer, dust, dash, hyper-jump, feather and **laser-arrow** colours |
@@ -157,7 +157,7 @@ group, since a two-base level has no third base to anchor in.
 ## Known limits
 
 * `HasEvenTeams` is still Blue-vs-Red, so the "even teams" treasure bonuses stay
-  off in three-team matches.
+  off in Team+ matches.
 * Corpses are not recoloured (vanilla only ships blue/red corpse sheets), so a
   gold or white archer leaves a normal corpse.
 * The versus intro still shows only the blue and red banners.

@@ -46,7 +46,7 @@ internal sealed class ThreeTeamModule : Mod
             logger.LogWarning("SELFTEST enabled — the mod will drive the menus itself");
         }
 
-        logger.LogInformation("Three Team Mode ready (sheets recoloured on demand, 8-player: {wide})",
+        logger.LogInformation("Team+ ready (sheets recoloured on demand, 8-player: {wide})",
                               Wide.Installed ? "WiderSet" : "no");
     }
 

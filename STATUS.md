@@ -1,4 +1,4 @@
-# Three Team Mode (PC / FortRise 5) — status
+# Team+ (PC / FortRise 5) — status
 
 Built 2026-08-20 in one session, from the port assessment in
 [`docs/THREE-TEAM-PC-PORT.md`](../../docs/THREE-TEAM-PC-PORT.md).

@@ -1,7 +1,13 @@
-# Changelog — Three Team Mode (PC / FortRise 5)
+# Changelog — Team+ (PC / FortRise 5)
 
 Player-facing changes. The engineering log, with the reasoning and the
 verification notes, is in [STATUS.md](STATUS.md).
+
+## Unreleased
+
+**Renamed: the mode is now called Team+** ("TEAM+" in the GAME MODE
+carousel; it was "THREE TEAM"). The mod's folder and id stay `ThreeTeamMode`,
+so an installed copy updates in place.
 
 ## 0.1.1 — 2026-08-22
 

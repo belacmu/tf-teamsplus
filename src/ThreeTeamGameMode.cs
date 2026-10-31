@@ -14,7 +14,7 @@ namespace ThreeTeamMode;
 /// </summary>
 public sealed class ThreeTeamGameMode : IVersusGameMode
 {
-    public string Name => "Three Team";
+    public string Name => "Team+";
 
     public Color NameColor => Teams3.YellowColorA;
 

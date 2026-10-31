@@ -41,13 +41,13 @@ REQUIREMENTS
 INSTALL
 
 Drop the .zip into FortRise's "Mods" folder. Don't unzip it. Launch FortRise, and
-"THREE TEAM" is in the versus GAME MODE carousel — you need at least 3 archers
+"TEAM+" is in the versus GAME MODE carousel — you need at least 3 archers
 for it to be selectable.
 
 
 KNOWN LIMITS
 
-- The "even teams" treasure bonuses stay off in three-team matches.
+- The "even teams" treasure bonuses stay off in Team+ matches.
 - Corpses aren't recoloured; vanilla only ships blue and red corpse sheets.
 - The versus intro still shows only the blue and red banners.
 - A yellow revive plays the blue team's revive sound; the game ships no third one.

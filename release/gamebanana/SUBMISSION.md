@@ -1,4 +1,4 @@
-# GameBanana submission kit — Three Team Mode
+# GameBanana submission kit — Team+
 
 Everything needed to put the mod up. Nothing here has been uploaded anywhere.
 
@@ -12,7 +12,7 @@ Everything needed to put the mod up. Nothing here has been uploaded anywhere.
 
 | Field | Suggested value |
 |---|---|
-| Name | Three Team Mode |
+| Name | Team+ |
 | Category | TowerFall → Mods → Game Modes (or Other, if that category doesn't exist) |
 | Requirements | FortRise 5.3.0+; optional: WiderSet for 8 players |
 | Tags | game mode, versus, teams, FortRise |
