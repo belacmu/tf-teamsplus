@@ -1,0 +1,61 @@
+THREE TEAM MODE — for TowerFall (FortRise 5)
+============================================
+
+A third team (Yellow) for TowerFall's team play, plus LONE WOLVES: the neutral
+column of the team-select screen is a real choice, and a solo archer fights
+every team at once.
+
+Vanilla Team Deathmatch is left completely alone — this is its own game mode.
+
+
+REQUIREMENTS
+------------
+* TowerFall (Dark World recommended)
+* FortRise 5.3.0 or newer      https://github.com/FortRise/FortRise
+* Optional: WiderSet, for 8 players (2v2v2 + 2 wolves)
+  https://github.com/FortRise/ExampleFortRiseMod/tree/main/WiderSet
+
+
+INSTALL
+-------
+Drop ThreeTeamMode.zip into FortRise's "Mods" folder. No need to unzip it.
+Start FortRise and the mode appears in the versus GAME MODE carousel as
+"THREE TEAM".
+
+
+HOW TO PLAY
+-----------
+1. Join 3 or 4 archers (up to 8 with WiderSet).
+2. On the GAME MODE line, scroll to THREE TEAM, then BEGIN.
+3. The team screen now has four columns:
+
+       SOLO  |  BLUE  |  YELLOW  |  RED
+
+   Left/right to pick. Everyone starts in SOLO.
+4. You can start as soon as two groups exist — 1v1v1, 2v1v1, a team against two
+   lone wolves, whatever. The only thing you cannot do is put everyone on one
+   team.
+5. A lone wolf fights everyone, including other lone wolves, and scores on its
+   own row.
+
+The yellow team gets real gold archers, a gold aimer, gold dust, and gold laser
+arrows. Lone wolves go white — sprite and gear — so no archer's own colours can
+be mistaken for a team.
+
+Custom archers work: the gold and white versions are recoloured from the
+archer's own art when it spawns, so archer mods need nothing extra. An archer
+that ships no team textures at all still becomes a proper white wolf, but stays
+its own colours on the yellow team (it also cannot play blue or red in vanilla's
+team modes, for the same reason).
+
+
+NOTES
+-----
+* Levels are picked the same way free-for-all picks them, and the third group
+  spawns at the point farthest from everyone else.
+* "Even teams" treasure bonuses stay off in three-team matches.
+* Corpses are not recoloured — vanilla only ships blue and red corpse sheets.
+
+
+Made with FortRise. Bug reports welcome; include FortRise's log file
+(FortRise/Logs) if something breaks.

@@ -1,0 +1,6 @@
+bin/
+obj/
+shots/
+release/*.zip
+release/gamebanana/*.zip
+.DS_Store

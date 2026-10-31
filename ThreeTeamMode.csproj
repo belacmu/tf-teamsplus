@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <ModName>ThreeTeamMode</ModName>
+    <ModVersion>0.1.1</ModVersion>
+    <ModZipPath>$(MSBuildProjectDirectory)/release/$(ModName).zip</ModZipPath>
+
+    <!-- FortRise install (holds TowerFall.Patch.dll + the Mods folder). Override
+         with -p:ModLoaderPath=... on other machines / platforms. Our macOS Steam
+         install puts the loader inside the game bundle. -->
+    <ModLoaderPath Condition="'$(ModLoaderPath)' == ''">$(HOME)/Library/Application Support/Steam/steamapps/common/TowerFall/TowerFall.app/Contents/FortRise.app/Contents/MacOS</ModLoaderPath>
+    <ModPublishPath>$(ModLoaderPath)/Mods</ModPublishPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Content/**/*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <!-- lands at the root of the shipped zip, next to meta.json -->
+    <Content Include="INSTALL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FortRise.Configuration" Version="1.5.6" />
+  </ItemGroup>
+
+</Project>
