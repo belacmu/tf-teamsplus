@@ -42,6 +42,7 @@ namespace ThreeTeamMode;
 /// </summary>
 internal static class SelfTest
 {
+    private static bool keepSound;
     public static bool Enabled { get; set; }
 
     private const int MenuSettleFrames = 150;   // let the menu finish booting
@@ -95,6 +96,7 @@ internal static class SelfTest
             forceLevel = level;
         }
         reviveTest = Environment.GetEnvironmentVariable("THREETEAM_SELFTEST_REVIVE") == "1";
+        keepSound = Environment.GetEnvironmentVariable("THREETEAM_SELFTEST_SOUND") == "1";
         if (reviveTest)
         {
             playerCount = 4;
@@ -204,6 +206,7 @@ internal static class SelfTest
         {
             return;
         }
+        Mute();
         frames++;
         try
         {
@@ -235,6 +238,7 @@ internal static class SelfTest
         {
             return;
         }
+        Mute();
         if (phase == 3)
         {
             frames++;
@@ -355,6 +359,21 @@ internal static class SelfTest
             ThreeTeamModule.Log($"SELFTEST FAILED in the revive run: {e}");
             Enabled = false;
         }
+    }
+
+    /// <summary>
+    /// A self-test runs silent unless THREETEAM_SELFTEST_SOUND=1. Only the live
+    /// volumes: SaveData's options (what the next normal launch uses) are untouched.
+    /// Set every tick, since loading the save puts the player's volumes back.
+    /// </summary>
+    private static void Mute()
+    {
+        if (keepSound)
+        {
+            return;
+        }
+        if (Music.MasterVolume != 0f) Music.MasterVolume = 0f;
+        if (Audio.MasterVolume != 0f) Audio.MasterVolume = 0f;
     }
 
     private static void Check(string what, bool ok)

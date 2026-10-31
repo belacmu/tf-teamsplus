@@ -6,6 +6,7 @@
 #   ./run.sh --selftest 8    scripted 8-player run (needs WiderSet installed)
 #   ./run.sh --revive        scripted Team Revive run (2v1 + wolf, variant on);
 #                            grep the log for "SELFTEST REVIVE"
+# Scripted runs are silent and keep running when the window is not in front.
 #
 # Two instances must never run at once: the second cannot write
 # Mods/_RelinkerCache/ThreeTeamMode.ThreeTeamMode.dll and silently runs stale
@@ -46,4 +47,10 @@ if [ "$1" = "--selftest" ] || [ "$1" = "--revive" ]; then
 fi
 
 cd "$FORTRISE"
+if [ -n "$THREETEAM_SELFTEST" ]; then
+  # A scripted run keeps playing behind other windows (the game pauses itself when
+  # it loses focus) and is silent (the self-test mutes it; THREETEAM_SELFTEST_SOUND=1
+  # keeps the sound).
+  exec ./FortRise --no-auto-pause
+fi
 exec ./FortRise
