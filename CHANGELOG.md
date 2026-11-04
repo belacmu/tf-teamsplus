@@ -3,7 +3,7 @@
 Player-facing changes. The engineering log, with the reasoning and the
 verification notes, is in [STATUS.md](STATUS.md).
 
-## Unreleased
+## 0.1.2 — 2026-11-04
 
 **Renamed: the mode is now called Team+** ("TEAM+" in the GAME MODE
 carousel; it was "THREE TEAM"). The mod's folder and id stay `ThreeTeamMode`,

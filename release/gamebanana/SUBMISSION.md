@@ -16,7 +16,7 @@ Everything needed to put the mod up. Nothing here has been uploaded anywhere.
 | Category | TowerFall → Mods → Game Modes (or Other, if that category doesn't exist) |
 | Requirements | FortRise 5.3.0+; optional: WiderSet for 8 players |
 | Tags | game mode, versus, teams, FortRise |
-| Version | 0.1.1 |
+| Version | 0.1.2 |
 | Credit | crab |
 
 Screenshot order — the first is the thumbnail, so lead with the select screen:
@@ -39,7 +39,7 @@ white and would misrepresent the mod. Worth capturing before submitting —
 
 `../../CHANGELOG.md` is the authoritative history; `description.txt` carries a
 short version of it for the page. GameBanana keeps its own per-version Updates
-section — post the 0.1.1 entry there rather than editing the description, so
+section — post each version's entry there (0.1.2 now) rather than editing the description, so
 subscribers get notified.
 
 ## After the page exists
