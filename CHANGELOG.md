@@ -12,7 +12,9 @@ so an installed copy updates in place.
 **Fixed: TEAM+ could not be picked with TF.EX installed.** FortRise loads mods by
 their priority, and TF.EX (priority Low) loaded first; its GAME MODE patch stops
 the scroll at its own Netplay mode, so every mode registered after it was out of
-reach. Team+ now has priority Lowest and loads before TF.EX.
+reach. Team+ now has priority Lowest and loads before TF.EX. With WiderSet
+installed it still loaded after TF.EX (it waited for WiderSet, an optional
+dependency): WiderSet is no longer a dependency, Team+ finds it when first needed.
 
 ## 0.1.1 — 2026-08-22
 

@@ -31,14 +31,16 @@ internal static class Wide
     {
         context = moduleContext;
         ThreeTeamModule.Log(Api() == null
-            ? "WiderSet not installed — running at the vanilla 4 players"
+            ? "WiderSet not loaded yet — looked up again when first needed (8 players if it is installed)"
             : "WiderSet detected — 8-player support enabled");
     }
 
     /// <summary>
-    /// Resolve WiderSet's API, retrying later if it was not loaded yet. meta.json
-    /// lists it as an optional dependency so FortRise loads it first, but a
-    /// missed lookup must not silently pin us to 4 players for the session.
+    /// Resolve WiderSet's API, retrying later if it was not loaded yet. WiderSet is
+    /// deliberately NOT an optional dependency in meta.json: that would make FortRise
+    /// load Team+ after WiderSet, and so after TF.EX, whose GAME MODE patch stops the
+    /// scroll at its Netplay mode (TEAM+ out of reach). Team+ loads first (priority
+    /// Lowest) and finds WiderSet here on first use.
     /// </summary>
     private static Teuria.WiderSet.IWiderSetModApi? Api()
     {
