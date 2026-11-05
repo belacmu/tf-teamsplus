@@ -2,7 +2,7 @@ using System;
 using Microsoft.Xna.Framework;
 using TowerFall;
 
-namespace ThreeTeamMode;
+namespace TeamPlus;
 
 /// <summary>
 /// The spine of the mod: what "Yellow" is, who is a lone wolf, and the

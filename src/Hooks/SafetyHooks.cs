@@ -6,7 +6,7 @@ using FortRise;
 using HarmonyLib;
 using TowerFall;
 
-namespace ThreeTeamMode.Hooks;
+namespace TeamPlus.Hooks;
 
 /// <summary>
 /// The "missed one = crash" list.

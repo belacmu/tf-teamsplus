@@ -2,7 +2,7 @@ using FortRise;
 using Microsoft.Xna.Framework;
 using TowerFall;
 
-namespace ThreeTeamMode;
+namespace TeamPlus;
 
 /// <summary>
 /// The versus mode itself. Registering this is what gets us an entry in the

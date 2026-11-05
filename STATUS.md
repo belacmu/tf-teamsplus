@@ -18,7 +18,7 @@ Built 2026-08-20 in one session, from the port assessment in
   throttles updates when the window is in the background, and a backgrounded run
   will sit in the round intro forever. Leave the window in front while it drives.
 * Don't launch two instances: the second fails to write
-  `Mods/_RelinkerCache/ThreeTeamMode.ThreeTeamMode.dll` and runs stale code.
+  `Mods/_RelinkerCache/TeamPlus.TeamPlus.dll` and runs stale code.
   Use `./run.sh` — it closes any running instance first. Note the process
   command line is just `./FortRise`, so `pkill -f MacOS/FortRise` never matches
   it (that is how three instances piled up here); `pkill -x FortRise` works.
@@ -111,7 +111,7 @@ build is clean, but the scenario has not executed.
 
 ## Release 0.1.0 — ready (2026-08-21)
 
-`release/ThreeTeamMode.zip`, 48 KB, 6 files: `meta.json`, `INSTALL.txt`, the dll
+`release/TeamPlus.zip`, 48 KB, 6 files: `meta.json`, `INSTALL.txt`, the dll
 (+pdb for readable user stack traces) and the two shipped images. Pre-flight
 passes: meta at root, declared dll present, FortRise required / WiderSet
 optional, no stale sheet folders, no `update.gamebanana.id` yet. The dll in the
@@ -132,11 +132,11 @@ zip, and `SUBMISSION.md` with the form fields.
 
 ## Shipping
 
-`release/ThreeTeamMode.zip` (~83 KB) is the distributable: `meta.json`,
+`release/TeamPlus.zip` (~83 KB) is the distributable: `meta.json`,
 `INSTALL.txt`, the dll (+pdb, so user stack traces have line numbers) and
 `Content/`. **Verified by installing the zip itself** — deleted the dev folder
 deploy, dropped the zip into `Mods/`, and FortRise loaded
-`ThreeTeamMode 0.1.0` from it and played a full 8-player match.
+`TeamPlus 0.1.0` from it and played a full 8-player match.
 
 `release/gamebanana/` is a submission kit: paste-ready `description.txt`, seven
 in-game screenshots in presentation order, `INSTALL.txt`, the zip, and

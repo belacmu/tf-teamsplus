@@ -6,8 +6,8 @@ verification notes, is in [STATUS.md](STATUS.md).
 ## 0.1.2 — 2026-11-04
 
 **Renamed: the mode is now called Team+** ("TEAM+" in the GAME MODE
-carousel; it was "THREE TEAM"). The mod's folder and id stay `ThreeTeamMode`,
-so an installed copy updates in place.
+carousel; it was "THREE TEAM"). The mod's id, folder and zip are now `TeamPlus` too (they were
+`ThreeTeamMode`): delete the old ThreeTeamMode folder or zip from Mods when updating.
 
 **Fixed: TEAM+ could not be picked with TF.EX installed.** FortRise loads mods by
 their priority, and TF.EX (priority Low) loaded first; its GAME MODE patch stops

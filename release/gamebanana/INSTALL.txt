@@ -18,7 +18,7 @@ REQUIREMENTS
 
 INSTALL
 -------
-Drop ThreeTeamMode.zip into FortRise's "Mods" folder. No need to unzip it.
+Drop TeamPlus.zip into FortRise's "Mods" folder. No need to unzip it.
 Start FortRise and the mode appears in the versus GAME MODE carousel as
 "TEAM+".
 

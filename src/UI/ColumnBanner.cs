@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Monocle;
 using TowerFall;
 
-namespace ThreeTeamMode.UI;
+namespace TeamPlus.UI;
 
 /// <summary>
 /// A select-screen column header that tweens in like the vanilla TeamBanner but

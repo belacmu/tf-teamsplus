@@ -6,7 +6,7 @@ using FortRise;
 using HarmonyLib;
 using TowerFall;
 
-namespace ThreeTeamMode.Hooks;
+namespace TeamPlus.Hooks;
 
 /// <summary>
 /// The rule layer: who may start a match, how big a "team" is, which score row

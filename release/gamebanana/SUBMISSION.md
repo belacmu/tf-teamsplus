@@ -2,7 +2,7 @@
 
 Everything needed to put the mod up. Nothing here has been uploaded anywhere.
 
-* `ThreeTeamMode.zip` — the file to attach (this is the mod; installers drop it
+* `TeamPlus.zip` — the file to attach (this is the mod; installers drop it
   straight into FortRise's `Mods` folder, no unzipping)
 * `description.txt` — paste into the submission's description box
 * `screenshots/` — 7 in-game frames, in the order they're worth showing

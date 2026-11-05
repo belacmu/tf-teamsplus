@@ -3,7 +3,7 @@ using HarmonyLib;
 using Monocle;
 using TowerFall;
 
-namespace ThreeTeamMode.Hooks;
+namespace TeamPlus.Hooks;
 
 /// <summary>
 /// Team Revive.

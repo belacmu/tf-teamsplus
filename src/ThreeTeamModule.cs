@@ -1,8 +1,8 @@
 using FortRise;
 using Microsoft.Extensions.Logging;
-using ThreeTeamMode.Hooks;
+using TeamPlus.Hooks;
 
-namespace ThreeTeamMode;
+namespace TeamPlus;
 
 /// <summary>
 /// Mod entry point. Registers the versus mode and installs the patches.

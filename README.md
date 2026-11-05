@@ -28,7 +28,7 @@ This is the desktop sibling of the Switch mod in `../exlaunch-overlay`
 
 ## Install (players)
 
-Drop `release/ThreeTeamMode.zip` into FortRise's `Mods` folder — no unzipping.
+Drop `release/TeamPlus.zip` into FortRise's `Mods` folder — no unzipping.
 Version history is in [CHANGELOG.md](CHANGELOG.md).
 `release/gamebanana/` holds a ready-to-paste submission kit (description,
 screenshots, readme) if this goes public.
@@ -39,8 +39,8 @@ Requires the .NET 10 SDK and a FortRise 5.3+ install (the build references
 `TowerFall.Patch.dll` from it).
 
 ```bash
-./build.sh                 # debug build, auto-deployed into <FortRise>/Mods/ThreeTeamMode
-./build.sh Release         # also writes release/ThreeTeamMode.zip for sharing
+./build.sh                 # debug build, auto-deployed into <FortRise>/Mods/TeamPlus
+./build.sh Release         # also writes release/TeamPlus.zip for sharing
 ```
 
 The FortRise folder is guessed from a macOS Steam install; point elsewhere with:

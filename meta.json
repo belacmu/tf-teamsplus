@@ -1,10 +1,10 @@
 {
-	"name": "ThreeTeamMode",
+	"name": "TeamPlus",
 	"version": "0.1.2",
 	"displayName": "Team+",
 	"author": "crab",
 	"description": "A third team (Yellow) for team deathmatch, plus lone wolves: the neutral column is a real choice, and a solo archer fights every team at once.",
-	"dll": "ThreeTeamMode.dll",
+	"dll": "TeamPlus.dll",
 	"priority": "Lowest",
 	"dependencies": [
 		{

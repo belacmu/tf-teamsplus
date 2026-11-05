@@ -1,6 +1,6 @@
 using FortRise;
 
-namespace ThreeTeamMode;
+namespace TeamPlus;
 
 /// <summary>
 /// Optional 8-player support.
