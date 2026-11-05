@@ -1,4 +1,4 @@
-# Team+ — PC (FortRise 5)
+# Teams+ — PC (FortRise 5)
 
 A third team (**Yellow**) for TowerFall's team play, plus **lone wolves**: the
 neutral column of the team-select screen is a real choice, and a solo archer
@@ -13,7 +13,7 @@ This is the desktop sibling of the Switch mod in `../exlaunch-overlay`
 
 | | |
 |---|---|
-| **Mode** | "TEAM+" in the GAME MODE carousel (needs 3+ archers), with its own icon |
+| **Mode** | "TEAMS+" in the GAME MODE carousel (needs 3+ archers), with its own icon |
 | **Select screen** | four columns — **SOLO / BLUE / YELLOW / RED**, neutral first |
 | **Start gate** | any two groups may start (2v1, 1v1v1, 2v1v1, team + wolves…). No per-team cap; you just can't all be on one team |
 | **Yellow archers** | real gold sprite sheets — body, bow and head — plus gold aimer, dust, dash, hyper-jump, feather and **laser-arrow** colours |
@@ -28,7 +28,7 @@ This is the desktop sibling of the Switch mod in `../exlaunch-overlay`
 
 ## Install (players)
 
-Drop `release/TeamPlus.zip` into FortRise's `Mods` folder — no unzipping.
+Drop `release/TeamsPlus.zip` into FortRise's `Mods` folder — no unzipping.
 Version history is in [CHANGELOG.md](CHANGELOG.md).
 `release/gamebanana/` holds a ready-to-paste submission kit (description,
 screenshots, readme) if this goes public.
@@ -39,8 +39,8 @@ Requires the .NET 10 SDK and a FortRise 5.3+ install (the build references
 `TowerFall.Patch.dll` from it).
 
 ```bash
-./build.sh                 # debug build, auto-deployed into <FortRise>/Mods/TeamPlus
-./build.sh Release         # also writes release/TeamPlus.zip for sharing
+./build.sh                 # debug build, auto-deployed into <FortRise>/Mods/TeamsPlus
+./build.sh Release         # also writes release/TeamsPlus.zip for sharing
 ```
 
 The FortRise folder is guessed from a macOS Steam install; point elsewhere with:
@@ -157,7 +157,7 @@ group, since a two-base level has no third base to anchor in.
 ## Known limits
 
 * `HasEvenTeams` is still Blue-vs-Red, so the "even teams" treasure bonuses stay
-  off in Team+ matches.
+  off in Teams+ matches.
 * Corpses are not recoloured (vanilla only ships blue/red corpse sheets), so a
   gold or white archer leaves a normal corpse.
 * The versus intro still shows only the blue and red banners.

@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Monocle;
 
-namespace TeamPlus;
+namespace TeamsPlus;
 
 /// <summary>How a sheet is recoloured, and what it was recoloured FROM.</summary>
 internal enum Tint

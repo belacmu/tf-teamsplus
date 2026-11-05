@@ -1,8 +1,8 @@
 using FortRise;
 using Microsoft.Extensions.Logging;
-using TeamPlus.Hooks;
+using TeamsPlus.Hooks;
 
-namespace TeamPlus;
+namespace TeamsPlus;
 
 /// <summary>
 /// Mod entry point. Registers the versus mode and installs the patches.
@@ -46,7 +46,7 @@ internal sealed class ThreeTeamModule : Mod
             logger.LogWarning("SELFTEST enabled — the mod will drive the menus itself");
         }
 
-        logger.LogInformation("Team+ ready (sheets recoloured on demand, 8-player: {wide})",
+        logger.LogInformation("Teams+ ready (sheets recoloured on demand, 8-player: {wide})",
                               Wide.Installed ? "WiderSet" : "no");
     }
 

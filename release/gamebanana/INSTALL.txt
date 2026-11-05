@@ -1,4 +1,4 @@
-TEAM+ — for TowerFall (FortRise 5)
+TEAMS+ — for TowerFall (FortRise 5)
 ==================================
 
 A third team (Yellow) for TowerFall's team play, plus LONE WOLVES: the neutral
@@ -18,15 +18,15 @@ REQUIREMENTS
 
 INSTALL
 -------
-Drop TeamPlus.zip into FortRise's "Mods" folder. No need to unzip it.
+Drop TeamsPlus.zip into FortRise's "Mods" folder. No need to unzip it.
 Start FortRise and the mode appears in the versus GAME MODE carousel as
-"TEAM+".
+"TEAMS+".
 
 
 HOW TO PLAY
 -----------
 1. Join 3 or 4 archers (up to 8 with WiderSet).
-2. On the GAME MODE line, scroll to TEAM+, then BEGIN.
+2. On the GAME MODE line, scroll to TEAMS+, then BEGIN.
 3. The team screen now has four columns:
 
        SOLO  |  BLUE  |  YELLOW  |  RED
@@ -53,7 +53,7 @@ NOTES
 -----
 * Levels are picked the same way free-for-all picks them, and the third group
   spawns at the point farthest from everyone else.
-* "Even teams" treasure bonuses stay off in Team+ matches.
+* "Even teams" treasure bonuses stay off in Teams+ matches.
 * Corpses are not recoloured — vanilla only ships blue and red corpse sheets.
 
 

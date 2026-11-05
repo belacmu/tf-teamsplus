@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Monocle;
 using TowerFall;
 
-namespace TeamPlus;
+namespace TeamsPlus;
 
 /// <summary>
 /// A scripted smoke test, for development only: it drives the mode end to end

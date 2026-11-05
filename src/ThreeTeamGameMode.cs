@@ -2,7 +2,7 @@ using FortRise;
 using Microsoft.Xna.Framework;
 using TowerFall;
 
-namespace TeamPlus;
+namespace TeamsPlus;
 
 /// <summary>
 /// The versus mode itself. Registering this is what gets us an entry in the
@@ -14,7 +14,7 @@ namespace TeamPlus;
 /// </summary>
 public sealed class ThreeTeamGameMode : IVersusGameMode
 {
-    public string Name => "Team+";
+    public string Name => "Teams+";
 
     public Color NameColor => Teams3.YellowColorA;
 

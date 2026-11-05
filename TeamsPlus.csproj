@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <ModName>TeamPlus</ModName>
+    <ModName>TeamsPlus</ModName>
     <ModVersion>0.1.2</ModVersion>
     <ModZipPath>$(MSBuildProjectDirectory)/release/$(ModName).zip</ModZipPath>
 

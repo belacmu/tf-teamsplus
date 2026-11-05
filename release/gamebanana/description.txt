@@ -41,20 +41,20 @@ REQUIREMENTS
 INSTALL
 
 Drop the .zip into FortRise's "Mods" folder. Don't unzip it. Launch FortRise, and
-"TEAM+" is in the versus GAME MODE carousel — you need at least 3 archers
+"TEAMS+" is in the versus GAME MODE carousel — you need at least 3 archers
 for it to be selectable.
 
 
 KNOWN LIMITS
 
-- The "even teams" treasure bonuses stay off in Team+ matches.
+- The "even teams" treasure bonuses stay off in Teams+ matches.
 - Corpses aren't recoloured; vanilla only ships blue and red corpse sheets.
 - The versus intro still shows only the blue and red banners.
 - A yellow revive plays the blue team's revive sound; the game ships no third one.
 
 CHANGELOG
 
-0.1.2 - Renamed the mode to Team+ ("TEAM+" in GAME MODE). Fixed TEAM+ being
+0.1.2 - Renamed the mode to Teams+ ("TEAMS+" in GAME MODE). Fixed TEAMS+ being
         impossible to pick with TF.EX installed (also with WiderSet installed).
 0.1.1 - Fixed the TEAM REVIVE variant doing nothing in this mode: teams now
         revive their own, yellow included. Lone wolves get no reviver by design.

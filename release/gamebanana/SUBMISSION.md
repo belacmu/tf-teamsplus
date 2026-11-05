@@ -1,8 +1,8 @@
-# GameBanana submission kit — Team+
+# GameBanana submission kit — Teams+
 
 Everything needed to put the mod up. Nothing here has been uploaded anywhere.
 
-* `TeamPlus.zip` — the file to attach (this is the mod; installers drop it
+* `TeamsPlus.zip` — the file to attach (this is the mod; installers drop it
   straight into FortRise's `Mods` folder, no unzipping)
 * `description.txt` — paste into the submission's description box
 * `screenshots/` — 7 in-game frames, in the order they're worth showing
@@ -12,7 +12,7 @@ Everything needed to put the mod up. Nothing here has been uploaded anywhere.
 
 | Field | Suggested value |
 |---|---|
-| Name | Team+ |
+| Name | Teams+ |
 | Category | TowerFall → Mods → Game Modes (or Other, if that category doesn't exist) |
 | Requirements | FortRise 5.3.0+; optional: WiderSet for 8 players |
 | Tags | game mode, versus, teams, FortRise |

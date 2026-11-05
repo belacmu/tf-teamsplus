@@ -1,20 +1,20 @@
-# Changelog — Team+ (PC / FortRise 5)
+# Changelog — Teams+ (PC / FortRise 5)
 
 Player-facing changes. The engineering log, with the reasoning and the
 verification notes, is in [STATUS.md](STATUS.md).
 
 ## 0.1.2 — 2026-11-04
 
-**Renamed: the mode is now called Team+** ("TEAM+" in the GAME MODE
-carousel; it was "THREE TEAM"). The mod's id, folder and zip are now `TeamPlus` too (they were
+**Renamed: the mode is now called Teams+** ("TEAMS+" in the GAME MODE
+carousel; it was "THREE TEAM"). The mod's id, folder and zip are now `TeamsPlus` too (they were
 `ThreeTeamMode`): delete the old ThreeTeamMode folder or zip from Mods when updating.
 
-**Fixed: TEAM+ could not be picked with TF.EX installed.** FortRise loads mods by
+**Fixed: TEAMS+ could not be picked with TF.EX installed.** FortRise loads mods by
 their priority, and TF.EX (priority Low) loaded first; its GAME MODE patch stops
 the scroll at its own Netplay mode, so every mode registered after it was out of
-reach. Team+ now has priority Lowest and loads before TF.EX. With WiderSet
+reach. Teams+ now has priority Lowest and loads before TF.EX. With WiderSet
 installed it still loaded after TF.EX (it waited for WiderSet, an optional
-dependency): WiderSet is no longer a dependency, Team+ finds it when first needed.
+dependency): WiderSet is no longer a dependency, Teams+ finds it when first needed.
 
 ## 0.1.1 — 2026-08-22
 

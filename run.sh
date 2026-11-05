@@ -9,7 +9,7 @@
 # Scripted runs are silent and keep running when the window is not in front.
 #
 # Two instances must never run at once: the second cannot write
-# Mods/_RelinkerCache/TeamPlus.TeamPlus.dll and silently runs stale
+# Mods/_RelinkerCache/TeamsPlus.TeamsPlus.dll and silently runs stale
 # code, so this script closes any existing one first. Note `pkill -f FortRise`
 # does NOT match it — the process command line is just "./FortRise" — hence
 # `pkill -x`.

@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Monocle;
 using TowerFall;
 
-namespace TeamPlus.UI;
+namespace TeamsPlus.UI;
 
 /// <summary>
 /// The four-column team selector: SOLO | BLUE | YELLOW | RED.

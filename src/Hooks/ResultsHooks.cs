@@ -6,7 +6,7 @@ using FortRise;
 using HarmonyLib;
 using TowerFall;
 
-namespace TeamPlus.Hooks;
+namespace TeamsPlus.Hooks;
 
 /// <summary>
 /// The results board.

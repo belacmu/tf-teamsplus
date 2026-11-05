@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-flight checks on release/TeamPlus.zip before it goes anywhere.
+"""Pre-flight checks on release/TeamsPlus.zip before it goes anywhere.
 
     python3 tools/preflight.py
 
@@ -16,9 +16,9 @@ import sys
 import zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-ZIP = ROOT / "release" / "TeamPlus.zip"
-BUILT = ROOT / "bin" / "Release" / "net10.0" / "TeamPlus.dll"
-KIT = ROOT / "release" / "gamebanana" / "TeamPlus.zip"
+ZIP = ROOT / "release" / "TeamsPlus.zip"
+BUILT = ROOT / "bin" / "Release" / "net10.0" / "TeamsPlus.dll"
+KIT = ROOT / "release" / "gamebanana" / "TeamsPlus.zip"
 
 failures = []
 
@@ -40,7 +40,7 @@ with zipfile.ZipFile(ZIP) as z:
     names = z.namelist()
     files = [n for n in names if not n.endswith("/")]
     meta = json.loads(z.read("meta.json")) if "meta.json" in names else {}
-    zip_dll = z.read("TeamPlus.dll") if "TeamPlus.dll" in names else b""
+    zip_dll = z.read("TeamsPlus.dll") if "TeamsPlus.dll" in names else b""
 
 print(f"{ZIP.relative_to(ROOT)} — {ZIP.stat().st_size // 1024} KB, {len(files)} files")
 
@@ -51,10 +51,10 @@ check("mod name is alphanumeric", str(meta.get("name", "")).isalnum(),
       str(meta.get("name")))
 check("version matches the csproj",
       f"<ModVersion>{meta.get('version')}</ModVersion>"
-      in (ROOT / "TeamPlus.csproj").read_text(), str(meta.get("version")))
+      in (ROOT / "TeamsPlus.csproj").read_text(), str(meta.get("version")))
 check("FortRise is a hard dependency",
       any(d.get("name") == "FortRise" for d in meta.get("dependencies", [])))
-check("no WiderSet dependency (an optional one loads Team+ after TF.EX: TEAM+ unreachable, CHANGELOG 0.1.2)",
+check("no WiderSet dependency (an optional one loads Teams+ after TF.EX: TEAMS+ unreachable, CHANGELOG 0.1.2)",
       all(d.get("name") != "Teuria.WiderSet"
           for d in meta.get("dependencies", []) + meta.get("optionalDependencies", [])))
 check("no update.gamebanana.id yet",

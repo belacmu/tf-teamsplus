@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Monocle;
 using TowerFall;
 
-namespace TeamPlus.UI;
+namespace TeamsPlus.UI;
 
 /// <summary>
 /// A select-screen column header that tweens in like the vanilla TeamBanner but

@@ -3,7 +3,7 @@ using FortRise;
 using HarmonyLib;
 using TowerFall;
 
-namespace TeamPlus.Hooks;
+namespace TeamsPlus.Hooks;
 
 /// <summary>
 /// Which levels this mode may pick.

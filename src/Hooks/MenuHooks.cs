@@ -1,10 +1,10 @@
 using FortRise;
 using HarmonyLib;
 using Microsoft.Xna.Framework;
-using TeamPlus.UI;
+using TeamsPlus.UI;
 using TowerFall;
 
-namespace TeamPlus.Hooks;
+namespace TeamsPlus.Hooks;
 
 /// <summary>
 /// Builds our own team-select screen when the mode is ours, and leaves vanilla's

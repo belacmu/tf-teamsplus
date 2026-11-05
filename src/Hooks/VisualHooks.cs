@@ -5,7 +5,7 @@ using HarmonyLib;
 using Monocle;
 using TowerFall;
 
-namespace TeamPlus.Hooks;
+namespace TeamsPlus.Hooks;
 
 /// <summary>
 /// What a yellow archer and a lone wolf look like.

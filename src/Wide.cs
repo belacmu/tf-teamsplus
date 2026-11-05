@@ -1,6 +1,6 @@
 using FortRise;
 
-namespace TeamPlus;
+namespace TeamsPlus;
 
 /// <summary>
 /// Optional 8-player support.
@@ -38,8 +38,8 @@ internal static class Wide
     /// <summary>
     /// Resolve WiderSet's API, retrying later if it was not loaded yet. WiderSet is
     /// deliberately NOT an optional dependency in meta.json: that would make FortRise
-    /// load Team+ after WiderSet, and so after TF.EX, whose GAME MODE patch stops the
-    /// scroll at its Netplay mode (TEAM+ out of reach). Team+ loads first (priority
+    /// load Teams+ after WiderSet, and so after TF.EX, whose GAME MODE patch stops the
+    /// scroll at its Netplay mode (TEAMS+ out of reach). Teams+ loads first (priority
     /// Lowest) and finds WiderSet here on first use.
     /// </summary>
     private static Teuria.WiderSet.IWiderSetModApi? Api()

@@ -1,7 +1,7 @@
 using System;
 using FortRise;
 
-namespace TeamPlus;
+namespace TeamsPlus;
 
 /// <summary>
 /// Every image the mod ships, registered through FortRise's texture registry so

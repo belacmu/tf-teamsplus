@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Monocle;
 using TowerFall;
 
-namespace TeamPlus;
+namespace TeamsPlus;
 
 /// <summary>
 /// Team Deathmatch's round logic, generalised from "two teams" to "N groups".
