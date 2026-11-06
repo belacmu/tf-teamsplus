@@ -1,7 +1,6 @@
 # Teams+ (PC / FortRise 5) — status
 
-Built 2026-08-20 in one session, from the port assessment in
-[`docs/THREE-TEAM-PC-PORT.md`](../../docs/THREE-TEAM-PC-PORT.md).
+Built 2026-08-20 in one session, from a port assessment of the Switch version (not published).
 
 ## Environment (set up this session)
 

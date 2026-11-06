@@ -56,6 +56,7 @@ CHANGELOG
 
 0.1.2 - Renamed the mode to Teams+ ("TEAMS+" in GAME MODE). Fixed TEAMS+ being
         impossible to pick with TF.EX installed (also with WiderSet installed).
+        FortRise now checks for new versions of the mod.
 0.1.1 - Fixed the TEAM REVIVE variant doing nothing in this mode: teams now
         revive their own, yellow included. Lone wolves get no reviver by design.
         Also fixed a round that could hang if a revive failed at the last moment.

@@ -19,25 +19,24 @@ Everything needed to put the mod up. Nothing here has been uploaded anywhere.
 | Version | 0.1.2 |
 | Credit | crab |
 
-Screenshot order — the first is the thumbnail, so lead with the select screen:
+Screenshot order (the first is the thumbnail). Taken 2026-11-06 from 0.1.2's release zip in the browser port of TowerFall
+(the PC game, FortRise 5.5.0-beta.4, WiderSet 0.9.0): the 4-player frames from Teams+'s own selftest, the 8-player ones played
+through the menus.
 
-1. `1-team-select.png` — the four columns, which is the whole pitch
-2. `2-match-three-teams-and-a-wolf.png` — 1v1v1 + a wolf in play
-3. `3-gold-archer-closeup.png` — the yellow team's gold sheet, 5x
-4. `4-white-wolf-closeup.png` — a lone wolf's white sheet, 5x
-5. `5-final-kill.png` — final-kill spotlight on the winning team
-6. `6-results-one-row-per-group.png` — a score row per group
-7. `7-team-select-8p.png` — the wide select screen with 8 archers
-8. `8-results-8p.png` — five rows, two P-labels per team
+1. `1-team-select-8-players.png`: the four columns with 8 players picked (2 BLUE, 2 YELLOW, 2 RED, 2 SOLO)
+2. `2-match-three-teams-and-a-wolf.png`: 1v1v1 plus a lone wolf in play
+3. `3-game-mode.png`: TEAMS+ in the GAME MODE carousel
+4. `4-gold-archer-closeup.png`: the yellow team's gold sheet, 4x
+5. `5-white-wolf-closeup.png`: a lone wolf's white sheet, 4x
+6. `6-match-8-players.png`: an 8-player match's opening (TowerForge, every archer in its group's colour)
+7. `7-round-results.png`: the round results
 
-Every frame is from the shipped build except one gap: there is **no 8-player
-in-match frame**, because the only one I had was captured before lone wolves went
-white and would misrepresent the mod. Worth capturing before submitting —
-`./run.sh --selftest 8` and take `shots/2-match.png`.
+No 8-player frame from mid-round: the browser port doesn't get past an 8-player round's intro (vanilla modes too), so it can't
+show one. Worth adding from the PC game (`./run.sh --selftest 8`, `shots/2-match.png`).
 
 ## Versions
 
-`../../CHANGELOG.md` is the authoritative history; `description.txt` carries a
+`../../CHANGELOG.md` (the repo's CHANGELOG.md) is the authoritative history; `description.txt` carries a
 short version of it for the page. GameBanana keeps its own per-version Updates
 section — post each version's entry there (0.1.2 now) rather than editing the description, so
 subscribers get notified.

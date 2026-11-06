@@ -5,9 +5,7 @@ neutral column of the team-select screen is a real choice, and a solo archer
 fights every team at once. Registered as its own versus mode, so vanilla Team
 Deathmatch is untouched.
 
-This is the desktop sibling of the Switch mod in `../exlaunch-overlay`
-(same design, same gold, same wolves). The port assessment that led here is
-[`docs/THREE-TEAM-PC-PORT.md`](../../docs/THREE-TEAM-PC-PORT.md).
+![The team-select screen with 8 players: SOLO, BLUE, YELLOW and RED](release/gamebanana/screenshots/1-team-select-8-players.png)
 
 ## What it does
 
@@ -28,10 +26,9 @@ This is the desktop sibling of the Switch mod in `../exlaunch-overlay`
 
 ## Install (players)
 
-Drop `release/TeamsPlus.zip` into FortRise's `Mods` folder — no unzipping.
+Download `TeamsPlus.zip` from the [latest release](https://github.com/belacmu/tf-teamsplus/releases/latest) and drop it into
+FortRise's `Mods` folder, without unzipping it. FortRise checks this repo for new versions.
 Version history is in [CHANGELOG.md](CHANGELOG.md).
-`release/gamebanana/` holds a ready-to-paste submission kit (description,
-screenshots, readme) if this goes public.
 
 ## Build
 
