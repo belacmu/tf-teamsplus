@@ -20,9 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-This licence covers Teams+'s own code and tools. The images under Content/ are
-recoloured from TowerFall's art (tools/gen_assets.py makes them from the game's
-files), and TowerFall's art belongs to its owners; the licence above doesn't
-cover it.

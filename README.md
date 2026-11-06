@@ -161,3 +161,8 @@ group, since a two-base level has no third base to anchor in.
 * Corpses are not recoloured (vanilla only ships blue/red corpse sheets), so a
   gold or white archer leaves a normal corpse.
 * The versus intro still shows only the blue and red banners.
+
+## Licence
+
+Teams+'s code and tools are MIT ([LICENSE](LICENSE)). The images under `Content/` are recoloured from TowerFall's art
+(`tools/gen_assets.py` makes them from the game's files); TowerFall's art belongs to its owners and isn't covered by that licence.
