@@ -5,6 +5,8 @@ verification notes, is in [STATUS.md](STATUS.md).
 
 ## 0.1.2 — 2026-11-04
 
+**Updates in game:** FortRise now checks this mod's GitHub releases and offers new versions.
+
 **Renamed: the mode is now called Teams+** ("TEAMS+" in the GAME MODE
 carousel; it was "THREE TEAM"). The mod's id, folder and zip are now `TeamsPlus` too (they were
 `ThreeTeamMode`): delete the old ThreeTeamMode folder or zip from Mods when updating.
