@@ -3,6 +3,16 @@
 Player-facing changes. The engineering log, with the reasoning and the
 verification notes, is in [STATUS.md](STATUS.md).
 
+## Unreleased
+
+**Changed: Teams+ places every archer itself, on the level's own spawn points.**
+A level's normal and team spawn points are one set, and Teams+ decides who starts
+where: Blue on the left, Red on the right, Yellow in the middle (or on a free
+side), lone wolves on the points farthest from everyone. Teams start together on
+every level, team-only levels included, and a team can be bigger than a level's
+team markers. The spawns no longer depend on a random shuffle, so the same level
+and teams give the same spawns on every machine.
+
 ## 0.1.2 — 2026-11-04
 
 **Updates in game:** FortRise now checks this mod's GitHub releases and offers new versions.
