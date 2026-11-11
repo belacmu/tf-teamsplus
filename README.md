@@ -17,8 +17,8 @@ Deathmatch is untouched.
 | **Yellow archers** | real gold sprite sheets — body, bow and head — plus gold aimer, dust, dash, hyper-jump, feather and **laser-arrow** colours |
 | **Custom archers** | sheets are recoloured from the atlas at spawn time, so archer mods get gold and white versions too — nothing is pre-baked |
 | **Lone wolves** | neutral = its own one-archer group: **white sprite sheets** plus white aimer/shield/dust/lasers, so no archer palette can be mistaken for a team. Hostile to everyone (including other wolves), own score row, nobody revives them |
-| **Spawning** | two groups get the normal left/right split; a third group is anchored at the marker farthest from everyone else, teammates clustered around it, nobody sharing a marker |
-| **Team-designed levels** | levels that ship only team markers and no neutral spawns are still in the pool: the map is split left-to-right into one block per group instead (Blue leftmost, Red rightmost) |
+| **Spawning** | the level's own spawn points (normal and team markers alike) are shared out by the mode: Blue from the left edge, Red from the right, Yellow on a free group close together and away from them (the middle when the level has points there), lone wolves on the points farthest from everyone. Teams start together, nobody shares a point, and the same level and teams always give the same spawns |
+| **Team-designed levels** | levels that ship only team markers are in the pool too: their markers are just points to share out like any other |
 | **Round / match end** | round is over when one group is left standing; final-kill spotlight, crowns, goal, victory jingle all follow the group that won |
 | **8 players** | works with [WiderSet](https://github.com/FortRise/ExampleFortRiseMod/tree/main/WiderSet) — 2v2v2 + 2 wolves verified, with a wide-set select screen. Optional: absent WiderSet everything runs at the vanilla 4 |
 | **Results board** | one row per group, no blank rows |
@@ -148,8 +148,8 @@ So the mode filters for itself: a level is eligible when
 `PlayerSpawns + 2 × TeamSpawns >= players`, i.e. when the markers the spawner
 actually uses can seat everyone. Of the 192 shipped versus levels, that keeps
 the 40 with both marker sets, the 95 free-for-all ones, and the 25 team-only
-ones — with the spawner switching to left-to-right map splitting on the last
-group, since a two-base level has no third base to anchor in.
+ones. The spawner treats every marker as a point and decides itself which group
+starts where (Spawning, above), so a level's marker types never decide the teams.
 
 ## Known limits
 

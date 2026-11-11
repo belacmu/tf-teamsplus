@@ -3,7 +3,7 @@
 Player-facing changes. The engineering log, with the reasoning and the
 verification notes, is in [STATUS.md](STATUS.md).
 
-## Unreleased
+## 0.1.3 — 2026-11-11
 
 **Changed: Teams+ places every archer itself, on the level's own spawn points.**
 A level's normal and team spawn points are one set, and Teams+ decides who starts

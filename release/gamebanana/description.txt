@@ -20,8 +20,9 @@ WHAT YOU GET
   final-kill spotlights and victory music that all follow whichever group won.
 - The TEAM REVIVE variant works here too, yellow included. Wolves never get a
   reviver: a wolf answers to nobody, so nobody can bring one back.
-- Third groups spawn at the point farthest from everyone already placed, so a
-  three-way match doesn't start with someone in your lap.
+- Teams start together: Blue on the left, Red on the right, Yellow in the
+  middle where the level has room, lone wolves as far from everyone as they
+  can be, on every level, team-only ones included.
 
 
 8 PLAYERS
@@ -54,6 +55,9 @@ KNOWN LIMITS
 
 CHANGELOG
 
+0.1.3 - Teams start together on every level: the mode shares out the level's
+        spawn points itself (Blue left, Red right, Yellow in the middle,
+        wolves far from everyone), team-only levels included.
 0.1.2 - Renamed the mode to Teams+ ("TEAMS+" in GAME MODE). Fixed TEAMS+ being
         impossible to pick with TF.EX installed (also with WiderSet installed).
         FortRise now checks for new versions of the mod.
